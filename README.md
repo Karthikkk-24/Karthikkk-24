@@ -1,7 +1,7 @@
 <h1>👋🏻 Hi, I am Karthik Shetigar</h1>
 <hr>
 
-![White Modern Blogger YouTube Channel Art](https://user-images.githubusercontent.com/86278623/208313422-0a621795-4b57-4d5e-80c9-e68b5930c992.png)
+![Black Minimal Business Personal Profile Linkedin Banner](https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png)
 
 <hr>
 <li>✌ 20 y/o Developer & Ethical Hacker</li>
