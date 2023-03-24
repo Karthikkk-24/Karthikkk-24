@@ -1,4 +1,4 @@
-<h1>👋🏻 Hi, I am Karthik Shetigar</h1>
+<h1>👋🏻 Hi, I am Karthik Shettigar</h1>
 <hr>
 
 ![Black Minimal Business Personal Profile Linkedin Banner](https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png)
