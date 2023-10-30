@@ -7,8 +7,8 @@
 
 # 💫 About Me:
 <hr>
-<li>✌ 21 y/o Software Engineer & Ethical Hacker</li>
-<li>💻 I am currently working as a Software Engineer (FrontEnd Engineer) </li>
+<li>✌ 21 y/o Software Developer & Ethical Hacker</li>
+<li>💻 I am currently working as a Software Developer</li>
 <li>👨🏻‍🎓 A Computer Science Graduate, currently pursuing Post Graduation (Cybersecurity) from MIT University</li>
 <li>🔊 I talk about Web Development, Cybersecurity, Penetration Testing, Data Structure and Algorithms</li>
 <li>✍🏻 Write blogs on my journey and try my best to share my knowledge</li>
