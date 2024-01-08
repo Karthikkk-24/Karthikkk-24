@@ -5,7 +5,7 @@
 
 
 # 💫 About Me:
-✌    21 y/o Software Developer & Ethical Hacker<br>💻   I am currently working as a Software Developer<br>👨🏻‍🎓    Post Graduate Student from MIT (Massachusetts Institute of Technology),  Graduated in B.Sc Computer Science<br>🔊   I talk about Web Development, Cybersecurity, Penetration Testing, Data Structure, and Algorithms<br>✍🏻   I write blogs on my journey and try my best to share my knowledge
+✌    21 y/o Software Developer & Ethical Hacker<br>💻   I am currently working as a Full-Stack Software Developer<br>👨🏻‍🎓    Post Graduate Student from MIT (Massachusetts Institute of Technology),  Graduated in B.Sc Computer Science<br>🔊   I talk about Web Development, Cybersecurity, Penetration Testing, Data Structure, and Algorithms<br>✍🏻   I write blogs on my journey and try my best to share my knowledge
 
 
 ## 🌐 Socials:
