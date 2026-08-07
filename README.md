@@ -2,18 +2,21 @@
 
 ![Karthik Shettigar banner](https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png)
 
-# Hi, I'm Karthik Shettigar 👋🏻
+# Hi, I'm Karthik Shettigar
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Engineer;Node.js+%26+Next.js+Ecosystem;Cybersecurity+%26+Ethical+Hacking;Building+%26+Writing+in+Public)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1000&color=FFFFFF&center=true&vCenter=true&width=640&lines=Software+Engineer;Full+Stack+Developer;MERN+%7C+Node.js+%26+Next.js;Open+Source+Contributor)](https://git.io/typing-svg)
 
-**Full-Stack Software Engineer @ [NeoSOFT Technologies](https://www.neosofttech.com)** · Postgraduate at MIT · B.Sc Computer Science
+**Software Engineer @ NeoSOFT Technologies** · MERN Stack · 4+ years building scalable web apps
 
-I build web apps end to end, dig into how systems break, and write about the path along the way.
+[Portfolio](https://karthikkk.in) · [Resume](https://karthikkk.in/resume/Karthik_Shettigar_Resume.pdf) · [Email](mailto:kkshettigar24@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kks24/)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@karthikkk)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/karthikkk24/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/the_coding_hacker/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/Karthikkk-24)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kks24/)
+[![X](https://img.shields.io/badge/-X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/karthikkk24)
+[![Medium](https://img.shields.io/badge/-Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@karthikkk)
+[![YouTube](https://img.shields.io/badge/-YouTube-000000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@thecodinghacker)
+[![Instagram](https://img.shields.io/badge/-Instagram-000000?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/the_coding_hacker/)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-000000?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/kkshettigar24/)
 
 </div>
 
@@ -21,76 +24,98 @@ I build web apps end to end, dig into how systems break, and write about the pat
 
 ## About Me
 
-- 💻 Full-stack engineer focused on the **Node.js & Next.js** ecosystem
-- 🔐 Background in **cybersecurity**, ethical hacking, and penetration testing
-- 🎓 Postgraduate student at **MIT** · Graduated with a **B.Sc in Computer Science**
-- ✍️ Writing on Medium about web development, AI tooling, DSA, and security
-- 🚀 Recently built [MindRepo](https://mindrepo.online) — maps any public GitHub repo’s architecture before you dive into the code
+Experienced **MERN Stack Developer** with **4+ years** building scalable web applications — robust backends, RESTful APIs, and responsive front ends. Focused on performance, clean maintainable code, and shipping on time with teams.
+
+I also write about web development, DSA, cybersecurity, and AI tooling, and build products like [MindRepo](https://mindrepo.online) to help developers understand GitHub codebases faster.
+
+| | |
+| :--- | ---: |
+| Years experience | **4+** |
+| Projects delivered | **10+** |
+| Client satisfaction | **95%** |
+| Blog articles | **62** |
 
 ---
 
-## Tech Stack
+## Experience
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+**NeoSOFT Technologies** · Full-time · *Sep 2024 — Present*
+- Building and maintaining scalable web apps with modern JavaScript frameworks
+- Collaborating across teams on quality, testing, and CI practices
+- Optimizing performance and end-to-end user experience
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+**RudraTech IT Services** · Full-time · *Nov 2022 — Aug 2024*
+- Delivered **10+ projects** with **95%** client satisfaction
+- Built Java & Node.js backends serving **10,000+** concurrent users (**+40%** performance)
+- Cut API response time by **60%** via optimization and caching
+- Led **20+** code reviews, catching **150+** issues pre-deploy
 
-### Backend & Data
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**NEXA Software** · Full-time · *Feb 2022 — Aug 2022*
+- Node.js feedback backend that raised submissions by **35%** in 3 months
+- Redesigned 5 key React UIs (**+40%** task completion)
+- Introduced Git workflow that cut merge conflicts by **70%**
 
-### Cloud & Tools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+---
+
+## Education
+
+| School | Degree | Period | Grade |
+| --- | --- | --- | --- |
+| Massachusetts Institute of Technology | Cybersecurity | 2022 — 2023 | 96% |
+| Bharat College Of Arts & Commerce | Bachelors in Computer Science | 2019 — 2022 | 9.533 CGPA |
+| SICES High School & Junior College | Higher Secondary Education | 2017 — 2019 | 60% |
+
+---
+
+## What I Work With
+
+**Front end** — React, TypeScript, Tailwind, Next.js
+
+**Back end** — Node.js, NestJS, GraphQL, WebSockets, JWT/OAuth, caching, jobs, microservices, OpenAPI
+
+**App & design** — React Native, Expo, Flutter · UI/UX, Figma, responsive design
+
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/NestJS-000000?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/GraphQL-000000?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/MongoDB-000000?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Tailwind-000000?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/React_Native-000000?style=flat-square&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Flutter-000000?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+</p>
 
 ---
 
 ## Featured Work
 
-| Project | What it is |
-| --- | --- |
-| [MindRepo](https://mindrepo.online) | Drop in a public GitHub repo — get architecture overview, Mermaid diagrams, and a guided reading path |
-| [SneakerHead](https://github.com/Karthikkk-24/SneakerHead) | Full-stack sneaker storefront (customer app) |
-| [SneakerHead_Admin](https://github.com/Karthikkk-24/SneakerHead_Admin) | Admin dashboard for the SneakerHead platform |
-| [chat_app](https://github.com/Karthikkk-24/chat_app) | Real-time chat application in JavaScript |
-| [pokedex](https://github.com/Karthikkk-24/pokedex) | TypeScript Pokédex explorer |
-| [javascriptSeries](https://github.com/Karthikkk-24/javascriptSeries) | Hands-on JavaScript concepts & examples |
-| [AuthKit](https://github.com/Karthikkk-24/AuthKit) | Authentication starter kit in TypeScript |
-| [CareConnect](https://github.com/Karthikkk-24/CareConnect) | Healthcare-focused TypeScript application |
+| Project | Description | Stack |
+| --- | --- | --- |
+| [MindRepo](https://mindrepo.online) | Interactive diagrams & deep context for any public GitHub repo | Web |
+| [Prompt Genie](https://github.com/Karthikkk-24/promptgenie) | AI-powered prompt generation for better LLM prompts | AI, React, Node.js |
+| [Budget Buddy](https://github.com/Karthikkk-24/BudgetBuddy) | Personal finance tracker with budgeting & expense analytics | React, Node.js, MongoDB |
+| [PokeDex](https://github.com/Karthikkk-24/pokedex) | Interactive Pokémon encyclopedia with search & filters | React, REST API |
+| [Connect Reconnect](https://github.com/Karthikkk-24/ConnectReconnect) | Social networking to reconnect with lost connections | MERN, WebSocket |
+| [Chat App](https://github.com/Karthikkk-24/chat_app) | Real-time messaging with rooms and DMs | Node.js, Socket.io, React |
+| [Care Connect](https://github.com/Karthikkk-24/CareConnect) | Healthcare platform connecting patients with providers | React, Express, MongoDB |
+| [Code Knight](https://marketplace.visualstudio.com/items?itemName=KarthikShettigar.code-knight) | VS Code theme pack — elegant & anime-inspired themes | VS Code Extension |
+| [Domain Checker](https://github.com/Karthikkk-24/DomainChecker) | Instant domain availability + WHOIS lookup | Node.js, API |
+| [Audio Visualizer](https://github.com/Karthikkk-24/AudioVisualizer) | Browser audio visualizer with Web Audio API & Canvas | JavaScript |
 
-<p align="center">
-  <a href="https://github.com/Karthikkk-24/SneakerHead">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Karthikkk-24&repo=SneakerHead&theme=tokyonight&hide_border=true" alt="SneakerHead" />
-  </a>
-  <a href="https://github.com/Karthikkk-24/chat_app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Karthikkk-24&repo=chat_app&theme=tokyonight&hide_border=true" alt="chat_app" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Karthikkk-24/pokedex">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Karthikkk-24&repo=pokedex&theme=tokyonight&hide_border=true" alt="pokedex" />
-  </a>
-  <a href="https://github.com/Karthikkk-24/AuthKit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Karthikkk-24&repo=AuthKit&theme=tokyonight&hide_border=true" alt="AuthKit" />
-  </a>
-</p>
+More projects on [karthikkk.in/projects](https://karthikkk.in/projects) · live products on [karthikkk.in/shop](https://karthikkk.in/shop)
 
 ---
 
@@ -101,7 +126,7 @@ I build web apps end to end, dig into how systems break, and write about the pat
 - [The Silent War Between Human Creativity and Machine Precision](https://medium.com/@karthikkk/the-silent-war-between-human-creativity-and-machine-precision-e6eb9ae0ad24)
 - [Understanding Java Arrays and Collections Framework](https://medium.com/@karthikkk/understanding-java-arrays-and-collections-framework-fc7ffa7cf6e9)
 
-More on [Medium →](https://medium.com/@karthikkk)
+**62 articles** on DSA, security, Linux, Python, and tooling → [Medium](https://medium.com/@karthikkk) · [karthikkk.in/blogs](https://karthikkk.in/blogs)
 
 ---
 
@@ -109,12 +134,12 @@ More on [Medium →](https://medium.com/@karthikkk)
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Karthikkk-24&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Karthikkk-24&theme=tokyonight&hide_border=true)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Karthikkk-24&theme=github_dark" alt="GitHub stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Karthikkk-24&theme=github_dark" alt="Repos per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Karthikkk-24&theme=github_dark" alt="Most commit language" />
+<img src="https://streak-stats.demolab.com?user=Karthikkk-24&theme=dark&hide_border=true&background=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" alt="GitHub streak" />
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Karthikkk-24&layout=compact&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Karthikkk-24&theme=tokyo-night&hide_border=true&area=true)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Karthikkk-24&theme=github-compact&hide_border=true&area=true&color=ffffff&line=ffffff&point=ffffff" alt="Contribution activity graph" />
 
 </div>
 
@@ -126,10 +151,10 @@ More on [Medium →](https://medium.com/@karthikkk)
 
 Open to conversations about full-stack engineering, security, and building in public.
 
-[LinkedIn](https://linkedin.com/in/kks24/) · [Medium](https://medium.com/@karthikkk) · [X](https://twitter.com/karthikkk24/) · [Instagram](https://instagram.com/the_coding_hacker/)
+[karthikkk.in](https://karthikkk.in) · [LinkedIn](https://www.linkedin.com/in/kks24/) · [Medium](https://medium.com/@karthikkk) · [YouTube](https://www.youtube.com/@thecodinghacker) · [kkshettigar24@gmail.com](mailto:kkshettigar24@gmail.com)
 
 <br />
 
-[![](https://visitcount.itsvg.in/api?id=Karthikkk-24&icon=0&color=3)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Karthikkk-24&icon=0&color=0)](https://visitcount.itsvg.in)
 
 </div>
