@@ -104,8 +104,4 @@ More on [Medium](https://medium.com/@karthikkk)
 
 [karthikkk.in](https://karthikkk.in) · [LinkedIn](https://www.linkedin.com/in/kks24/) · [Medium](https://medium.com/@karthikkk) · [YouTube](https://www.youtube.com/@thecodinghacker) · [Email](mailto:kkshettigar24@gmail.com)
 
-<br />
-
-![Profile views](https://komarev.com/ghpvc/?username=Karthikkk-24&label=Profile%20views&color=000000&style=flat-square)
-
 </div>
