@@ -160,7 +160,6 @@ More on [Medium](https://medium.com/@karthikkk)
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Karthikkk-24&theme=github_dark" alt="GitHub stats" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Karthikkk-24&theme=github_dark" alt="Repos per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Karthikkk-24&theme=github_dark" alt="Most commit language" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Karthikkk-24&theme=github-compact&hide_border=true&area=true&color=ffffff&line=ffffff&point=ffffff" alt="Contribution activity graph" />
 
