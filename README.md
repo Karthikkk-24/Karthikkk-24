@@ -1,8 +1,10 @@
 <div align="center">
 
-![Karthik Shettigar banner](https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png)
+![Karthik Shettigar — Full-Stack Engineer, Security, Developer Tools](./assets/banner.svg)
 
 # Hi, I'm Karthik Shettigar
+
+**I build production Node.js & Next.js apps and developer tools — currently shipping [MindRepo](https://mindrepo.online), which turns any GitHub repo into an architecture map.**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1000&color=FFFFFF&center=true&vCenter=true&width=640&lines=Software+Engineer;Full+Stack+Developer;MERN+%7C+Node.js+%26+Next.js;Open+Source+Contributor)](https://git.io/typing-svg)
 
@@ -22,12 +24,30 @@
 
 ---
 
+## Currently
+
+- 🚀 Shipping **[MindRepo](https://mindrepo.online)** — interactive architecture maps for any public GitHub repo
+- 💼 Full-stack engineer @ **NeoSOFT Technologies**
+- ✍️ Writing on [Medium](https://medium.com/@karthikkk) about MCP, prompt engineering, and security
+- 🤝 Open to collaboration on developer tools & open source
+
+---
+
 ## About Me
 
-- Full-stack engineer focused on the **Node.js & Next.js** ecosystem
-- Background in **cybersecurity** and ethical hacking
-- Writing on Medium about web development, AI tooling, DSA, and security
-- Building [MindRepo](https://mindrepo.online) — maps any public GitHub repo’s architecture before you dive into the code
+- Full-stack engineer with a **security-first mindset** — background in ethical hacking, penetration testing, and secure API design
+- Focused on the **Node.js & Next.js** ecosystem for production web apps and developer tooling
+- Writing on Medium about web development, AI tooling, DSA, and cybersecurity
+
+---
+
+## Featured Project: MindRepo
+
+**[MindRepo](https://mindrepo.online)** maps the architecture of any public GitHub repo before you dive into the code — interactive diagrams, deep context, and a faster way to understand unfamiliar codebases.
+
+Built with **Next.js**, **Node.js**, and modern cloud tooling. Born from needing to onboard into large repos without reading every file first.
+
+🔗 **[Try it live →](https://mindrepo.online)** · **[Portfolio](https://karthikkk.in)**
 
 ---
 
@@ -130,7 +150,6 @@
 
 | Project | Description |
 | --- | --- |
-| [MindRepo](https://mindrepo.online) | Interactive diagrams & deep context for any public GitHub repo |
 | [Prompt Genie](https://github.com/Karthikkk-24/promptgenie) | AI-powered prompt generation for better LLM prompts |
 | [Budget Buddy](https://github.com/Karthikkk-24/BudgetBuddy) | Personal finance tracker with budgeting & expense analytics |
 | [PokeDex](https://github.com/Karthikkk-24/pokedex) | Interactive Pokémon encyclopedia with search & filters |
