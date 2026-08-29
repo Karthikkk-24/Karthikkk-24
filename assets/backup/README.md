@@ -7,6 +7,8 @@ Previous profile banners, kept so you can revert anytime.
 | `banner-original.png` | Original LinkedIn-style banner (1584×396) |
 | `banner-v2-glass-card.svg` | v2 source — glass code card + orbital glow design |
 | `banner-v2-glass-card.png` | v2 rendered PNG |
+| `banner-v3-brackets-focus.svg` | v3 source — brackets, FOCUS block, skill pills |
+| `banner-v3-brackets-focus.png` | v3 rendered PNG |
 | `../banner.svg` | **Active** banner source (editable) |
 | `../banner.png` | **Active** banner rendered for GitHub README |
 
