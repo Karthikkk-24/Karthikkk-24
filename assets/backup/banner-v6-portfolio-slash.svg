@@ -34,11 +34,11 @@
   <rect x="0" y="250" width="1280" height="70" fill="#030712" fill-opacity="0.65"/>
 
   <!-- Content -->
-  <text x="72" y="92" fill="#818cf8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">SOFTWARE ENGINEER</text>
+  <text x="72" y="92" fill="#818cf8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">KARTHIK SHETTIGAR</text>
 
-  <text x="72" y="158" fill="url(#nameFill)" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-2">Karthik Shettigar</text>
+  <text x="72" y="150" fill="url(#nameFill)" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-2">Building at scale.</text>
 
-  <text x="72" y="192" fill="#94a3b8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400">Full-Stack &#183; Security &#183; Developer Tools</text>
+  <text x="72" y="188" fill="#94a3b8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400">Full-Stack Engineer specializing in Node.js, Next.js &amp; security.</text>
 
   <!-- Inline tags -->
   <rect x="72" y="210" width="108" height="30" rx="15" fill="url(#pill)" stroke="#6366f1" stroke-opacity="0.25" stroke-width="1"/>

@@ -13,6 +13,8 @@ Previous profile banners, kept so you can revert anytime.
 | `banner-v4-minimal.png` | v4 rendered PNG |
 | `banner-v5-mesh-nodes.svg` | v5 source — gradient mesh, glass cards, node network |
 | `banner-v5-mesh-nodes.png` | v5 rendered PNG |
+| `banner-v6-portfolio-slash.svg` | v6 source — portfolio // comment style, green accent |
+| `banner-v6-portfolio-slash.png` | v6 rendered PNG |
 | `../banner.svg` | **Active** banner source (editable) |
 | `../banner.png` | **Active** banner rendered for GitHub README |
 
