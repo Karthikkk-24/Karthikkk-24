@@ -2,120 +2,83 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#030712"/>
-      <stop offset="45%" stop-color="#0a0f1a"/>
+      <stop offset="50%" stop-color="#0b1120"/>
       <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
     <linearGradient id="topBar" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#22d3ee" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9"/>
-      <stop offset="80%" stop-color="#34d399" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#818cf8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="nameLine" x1="64" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="nameLine" x1="64" y1="0" x2="380" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.15"/>
     </linearGradient>
-    <linearGradient id="cardBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    <linearGradient id="bracketGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
-    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    <linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.15"/>
     </linearGradient>
-    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.28"/>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="orbGreen" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#34d399" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blurHeavy" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="48"/>
-    </filter>
-    <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
     </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1280" height="3" fill="url(#topBar)"/>
+  <rect x="0" y="0" width="1280" height="2" fill="url(#topBar)"/>
 
-  <!-- Ambient glow (right) -->
-  <circle cx="1020" cy="160" r="180" fill="url(#orbCyan)" filter="url(#blurHeavy)"/>
-  <circle cx="1120" cy="100" r="140" fill="url(#orbViolet)" filter="url(#blurHeavy)"/>
-  <circle cx="940" cy="240" r="120" fill="url(#orbGreen)" filter="url(#blurHeavy)"/>
+  <!-- Ambient light -->
+  <circle cx="1080" cy="140" r="200" fill="url(#orb1)" filter="url(#blur)"/>
+  <circle cx="960" cy="220" r="160" fill="url(#orb2)" filter="url(#blur)"/>
 
-  <!-- Orbital rings -->
-  <g fill="none" stroke="#ffffff" stroke-opacity="0.06">
-    <circle cx="1040" cy="160" r="95"/>
-    <circle cx="1040" cy="160" r="130"/>
-    <circle cx="1040" cy="160" r="165"/>
-  </g>
-  <g fill="#22d3ee" fill-opacity="0.55" filter="url(#blurSoft)">
-    <circle cx="1135" cy="160" r="4"/>
-  </g>
-  <g fill="#818cf8" fill-opacity="0.45" filter="url(#blurSoft)">
-    <circle cx="945" cy="160" r="3"/>
-  </g>
-  <g fill="#34d399" fill-opacity="0.4" filter="url(#blurSoft)">
-    <circle cx="1040" cy="55" r="3"/>
-  </g>
+  <!-- Decorative arc -->
+  <path d="M 820 280 A 180 180 0 0 1 1180 280" fill="none" stroke="url(#arcGrad)" stroke-width="1.5" stroke-opacity="0.45"/>
+  <path d="M 860 280 A 140 140 0 0 1 1140 280" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.06"/>
 
-  <!-- Glass code card -->
-  <rect x="780" y="72" width="400" height="176" rx="16" fill="url(#cardFill)" stroke="url(#cardBorder)" stroke-width="1"/>
-  <rect x="780" y="72" width="400" height="36" rx="16" fill="#ffffff" fill-opacity="0.03"/>
-  <rect x="780" y="96" width="400" height="12" fill="#ffffff" fill-opacity="0.02"/>
+  <!-- Large bracket accents -->
+  <text x="768" y="228" fill="none" stroke="url(#bracketGrad)" stroke-width="2.5" stroke-opacity="0.2" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="180" font-weight="200">{</text>
+  <text x="1188" y="228" fill="none" stroke="url(#bracketGrad)" stroke-width="2.5" stroke-opacity="0.2" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="180" font-weight="200">}</text>
 
-  <!-- Window dots -->
-  <circle cx="804" cy="90" r="5" fill="#ef4444" fill-opacity="0.75"/>
-  <circle cx="824" cy="90" r="5" fill="#eab308" fill-opacity="0.75"/>
-  <circle cx="844" cy="90" r="5" fill="#22c55e" fill-opacity="0.75"/>
-  <text x="864" y="94" fill="#94a3b8" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11">mindrepo.ts</text>
-
-  <!-- Code snippet -->
-  <text x="804" y="132" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">async function</text>
-  <text x="924" y="132" fill="#c4b5fd" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> mapRepo</text>
-  <text x="996" y="132" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(url) {</text>
-
-  <text x="820" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">  const</text>
-  <text x="872" y="158" fill="#e2e8f0" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> graph</text>
-  <text x="928" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> = await</text>
-  <text x="1004" y="158" fill="#6ee7b7" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> analyze</text>
-  <text x="1076" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(url);</text>
-
-  <text x="820" y="184" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">  return</text>
-  <text x="884" y="184" fill="#67e8f9" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> visualize</text>
-  <text x="968" y="184" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(graph, {</text>
-  <text x="832" y="210" fill="#94a3b8" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">    secure:</text>
-  <text x="904" y="210" fill="#fcd34d" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> true</text>
-  <text x="944" y="210" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> });</text>
-  <text x="804" y="236" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">}</text>
-
-  <!-- Left typography -->
+  <!-- Left: identity -->
   <text x="64" y="98" fill="#64748b" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5">SOFTWARE ENGINEER</text>
-
   <text x="64" y="152" fill="#f8fafc" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1">Karthik Shettigar</text>
-
   <rect x="64" y="168" width="200" height="3" fill="url(#nameLine)" rx="1.5"/>
-
   <text x="64" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Full-Stack</text>
-  <text x="168" y="204" fill="#22d3ee" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500"> &#183; </text>
+  <text x="168" y="204" fill="#22d3ee" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19"> &#183; </text>
   <text x="188" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Security</text>
-  <text x="288" y="204" fill="#818cf8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500"> &#183; </text>
+  <text x="288" y="204" fill="#818cf8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19"> &#183; </text>
   <text x="308" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Dev Tools</text>
-
   <text x="64" y="238" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">Node.js &amp; Next.js</text>
   <text x="196" y="238" fill="#334155" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> // </text>
   <text x="224" y="238" fill="#34d399" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">mindrepo.online</text>
 
-  <!-- Bottom vignette -->
-  <rect x="0" y="280" width="1280" height="40" fill="#030712" fill-opacity="0.45"/>
+  <!-- Right: focus areas (no code) -->
+  <text x="860" y="118" fill="#64748b" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="2">FOCUS</text>
+  <text x="860" y="158" fill="#f1f5f9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="-0.5">Building developer tools</text>
+  <text x="860" y="192" fill="#94a3b8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">that help teams understand codebases faster.</text>
+
+  <!-- Skill pills -->
+  <rect x="860" y="214" width="88" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="876" y="233" fill="#67e8f9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500">MindRepo</text>
+
+  <rect x="958" y="214" width="78" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="974" y="233" fill="#c4b5fd" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Next.js</text>
+
+  <rect x="1046" y="214" width="96" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="1062" y="233" fill="#6ee7b7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Security</text>
+
+  <rect x="0" y="290" width="1280" height="30" fill="#030712" fill-opacity="0.4"/>
 </svg>

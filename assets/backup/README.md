@@ -1,26 +1,38 @@
 # Banner backup
 
-Previous profile banner, kept so you can revert anytime.
+Previous profile banners, kept so you can revert anytime.
 
 | File | Description |
 | --- | --- |
 | `banner-original.png` | Original LinkedIn-style banner (1584×396) |
-| `../banner.svg` | Custom banner source (editable) |
-| `../banner.png` | Custom banner rendered for GitHub README |
-| Remote URL | `https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png` |
+| `banner-v2-glass-card.svg` | v2 source — glass code card + orbital glow design |
+| `banner-v2-glass-card.png` | v2 rendered PNG |
+| `../banner.svg` | **Active** banner source (editable) |
+| `../banner.png` | **Active** banner rendered for GitHub README |
+
+**Remote URL (original):** `https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png`
 
 ## Revert to the original banner
 
-In the root `README.md`, replace the banner line with either:
+In `README.md`:
 
-**Option A — hosted URL (same as before):**
-```markdown
-![Karthik Shettigar banner](https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png)
-```
-
-**Option B — local backup file:**
 ```markdown
 ![Karthik Shettigar banner](./assets/backup/banner-original.png)
+```
+
+## Revert to v2 (glass code card design)
+
+Copy backup files to active paths, or point README directly:
+
+```markdown
+![Karthik Shettigar banner](./assets/backup/banner-v2-glass-card.png)
+```
+
+Or restore as active assets:
+
+```bash
+cp assets/backup/banner-v2-glass-card.svg assets/banner.svg
+cp assets/backup/banner-v2-glass-card.png assets/banner.png
 ```
 
 Then commit and push.
