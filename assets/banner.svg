@@ -1,67 +1,121 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Karthik Shettigar - Full-Stack Engineer, Security, Developer Tools">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="55%" stop-color="#0f1117"/>
-      <stop offset="100%" stop-color="#111827"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="45%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="topBar" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#34d399" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="nameLine" x1="64" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
-    </pattern>
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurHeavy" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+    <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
 
+  <!-- Background -->
   <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect width="1280" height="320" fill="url(#grid)"/>
-  <rect x="720" y="0" width="560" height="320" fill="url(#glow)"/>
-  <rect x="64" y="248" width="280" height="2" fill="url(#accent)" rx="1"/>
+  <rect x="0" y="0" width="1280" height="3" fill="url(#topBar)"/>
 
-  <g fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5">
-    <path d="M 860 88 L 980 88 L 1040 148"/>
-    <path d="M 860 88 L 920 148 L 1040 148"/>
-    <path d="M 920 148 L 980 208 L 1100 208"/>
-    <path d="M 1040 148 L 1100 208"/>
-    <path d="M 980 88 L 1040 148"/>
-    <path d="M 1040 148 L 1160 88"/>
-    <path d="M 1100 208 L 1180 148"/>
+  <!-- Ambient glow (right) -->
+  <circle cx="1020" cy="160" r="180" fill="url(#orbCyan)" filter="url(#blurHeavy)"/>
+  <circle cx="1120" cy="100" r="140" fill="url(#orbViolet)" filter="url(#blurHeavy)"/>
+  <circle cx="940" cy="240" r="120" fill="url(#orbGreen)" filter="url(#blurHeavy)"/>
+
+  <!-- Orbital rings -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.06">
+    <circle cx="1040" cy="160" r="95"/>
+    <circle cx="1040" cy="160" r="130"/>
+    <circle cx="1040" cy="160" r="165"/>
   </g>
-  <g fill="#0f1117" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5">
-    <rect x="828" y="68" width="64" height="40" rx="6"/>
-    <rect x="948" y="68" width="64" height="40" rx="6"/>
-    <rect x="888" y="128" width="64" height="40" rx="6"/>
-    <rect x="1008" y="128" width="64" height="40" rx="6"/>
-    <rect x="948" y="188" width="64" height="40" rx="6"/>
-    <rect x="1068" y="188" width="64" height="40" rx="6"/>
-    <rect x="1128" y="68" width="64" height="40" rx="6"/>
-    <rect x="1158" y="128" width="64" height="40" rx="6"/>
+  <g fill="#22d3ee" fill-opacity="0.55" filter="url(#blurSoft)">
+    <circle cx="1135" cy="160" r="4"/>
   </g>
-  <g fill="#ffffff" fill-opacity="0.7" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500">
-    <text x="844" y="93">src</text>
-    <text x="958" y="93">api</text>
-    <text x="898" y="153">lib</text>
-    <text x="1018" y="153">db</text>
-    <text x="958" y="213">app</text>
-    <text x="1078" y="213">ui</text>
-    <text x="1144" y="93">auth</text>
-    <text x="1174" y="153">core</text>
+  <g fill="#818cf8" fill-opacity="0.45" filter="url(#blurSoft)">
+    <circle cx="945" cy="160" r="3"/>
+  </g>
+  <g fill="#34d399" fill-opacity="0.4" filter="url(#blurSoft)">
+    <circle cx="1040" cy="55" r="3"/>
   </g>
 
-  <g transform="translate(1180, 220)" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5">
-    <path d="M 0 -28 L 24 -18 L 24 8 C 24 24 12 34 0 40 C -12 34 -24 24 -24 8 L -24 -18 Z"/>
-  </g>
+  <!-- Glass code card -->
+  <rect x="780" y="72" width="400" height="176" rx="16" fill="url(#cardFill)" stroke="url(#cardBorder)" stroke-width="1"/>
+  <rect x="780" y="72" width="400" height="36" rx="16" fill="#ffffff" fill-opacity="0.03"/>
+  <rect x="780" y="96" width="400" height="12" fill="#ffffff" fill-opacity="0.02"/>
 
-  <text x="64" y="72" fill="#ffffff" fill-opacity="0.12" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="48" font-weight="300">&lt;/&gt;</text>
-  <text x="64" y="138" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-0.5">Karthik Shettigar</text>
-  <text x="64" y="178" fill="#d1d5db" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">Software Engineer &#183; Full-Stack &#183; Security</text>
-  <text x="64" y="210" fill="#9ca3af" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="400">Node.js &amp; Next.js &#183; Developer Tools &#183; MindRepo</text>
+  <!-- Window dots -->
+  <circle cx="804" cy="90" r="5" fill="#ef4444" fill-opacity="0.75"/>
+  <circle cx="824" cy="90" r="5" fill="#eab308" fill-opacity="0.75"/>
+  <circle cx="844" cy="90" r="5" fill="#22c55e" fill-opacity="0.75"/>
+  <text x="864" y="94" fill="#94a3b8" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11">mindrepo.ts</text>
 
-  <rect x="0" y="300" width="1280" height="20" fill="#0d1117" fill-opacity="0.35"/>
+  <!-- Code snippet -->
+  <text x="804" y="132" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">async function</text>
+  <text x="924" y="132" fill="#c4b5fd" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> mapRepo</text>
+  <text x="996" y="132" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(url) {</text>
+
+  <text x="820" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">  const</text>
+  <text x="872" y="158" fill="#e2e8f0" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> graph</text>
+  <text x="928" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> = await</text>
+  <text x="1004" y="158" fill="#6ee7b7" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> analyze</text>
+  <text x="1076" y="158" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(url);</text>
+
+  <text x="820" y="184" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">  return</text>
+  <text x="884" y="184" fill="#67e8f9" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> visualize</text>
+  <text x="968" y="184" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">(graph, {</text>
+  <text x="832" y="210" fill="#94a3b8" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">    secure:</text>
+  <text x="904" y="210" fill="#fcd34d" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> true</text>
+  <text x="944" y="210" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> });</text>
+  <text x="804" y="236" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">}</text>
+
+  <!-- Left typography -->
+  <text x="64" y="98" fill="#64748b" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5">SOFTWARE ENGINEER</text>
+
+  <text x="64" y="152" fill="#f8fafc" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1">Karthik Shettigar</text>
+
+  <rect x="64" y="168" width="200" height="3" fill="url(#nameLine)" rx="1.5"/>
+
+  <text x="64" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Full-Stack</text>
+  <text x="168" y="204" fill="#22d3ee" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500"> &#183; </text>
+  <text x="188" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Security</text>
+  <text x="288" y="204" fill="#818cf8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500"> &#183; </text>
+  <text x="308" y="204" fill="#cbd5e1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Dev Tools</text>
+
+  <text x="64" y="238" fill="#64748b" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">Node.js &amp; Next.js</text>
+  <text x="196" y="238" fill="#334155" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13"> // </text>
+  <text x="224" y="238" fill="#34d399" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13">mindrepo.online</text>
+
+  <!-- Bottom vignette -->
+  <rect x="0" y="280" width="1280" height="40" fill="#030712" fill-opacity="0.45"/>
 </svg>
