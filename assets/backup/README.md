@@ -5,6 +5,8 @@ Previous profile banner, kept so you can revert anytime.
 | File | Description |
 | --- | --- |
 | `banner-original.png` | Original LinkedIn-style banner (1584×396) |
+| `../banner.svg` | Custom banner source (editable) |
+| `../banner.png` | Custom banner rendered for GitHub README |
 | Remote URL | `https://user-images.githubusercontent.com/86278623/208313871-26849c79-9413-4a1e-b7cc-217f3a630528.png` |
 
 ## Revert to the original banner
