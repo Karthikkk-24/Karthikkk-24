@@ -9,6 +9,8 @@ Previous profile banners, kept so you can revert anytime.
 | `banner-v2-glass-card.png` | v2 rendered PNG |
 | `banner-v3-brackets-focus.svg` | v3 source — brackets, FOCUS block, skill pills |
 | `banner-v3-brackets-focus.png` | v3 rendered PNG |
+| `banner-v4-minimal.svg` | v4 source — plain centered typography only |
+| `banner-v4-minimal.png` | v4 rendered PNG |
 | `../banner.svg` | **Active** banner source (editable) |
 | `../banner.png` | **Active** banner rendered for GitHub README |
 

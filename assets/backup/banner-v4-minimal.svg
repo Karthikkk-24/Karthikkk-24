@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Karthik Shettigar - Full-Stack Engineer, Security, Developer Tools">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.055"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="520" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topEdge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#spotlight)"/>
+  <rect x="0" y="0" width="1280" height="1" fill="url(#topEdge)"/>
+
+  <!-- Centered typography -->
+  <text x="640" y="108" text-anchor="middle" fill="#71717a" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="4.5">SOFTWARE ENGINEER</text>
+
+  <text x="640" y="168" text-anchor="middle" fill="#fafafa" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Karthik Shettigar</text>
+
+  <rect x="560" y="186" width="160" height="1" fill="url(#rule)"/>
+
+  <text x="640" y="218" text-anchor="middle" fill="#d4d4d8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" letter-spacing="0.2">Full-Stack Engineer &#183; Security &#183; Developer Tools</text>
+
+  <text x="640" y="248" text-anchor="middle" fill="#71717a" font-family="ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="400">
+    <tspan>Node.js &amp; Next.js</tspan>
+    <tspan fill="#52525b">  &#183;  </tspan>
+    <tspan fill="#4ade80">mindrepo.online</tspan>
+  </text>
+
+  <rect x="0" y="319" width="1280" height="1" fill="#ffffff" fill-opacity="0.06"/>
+</svg>
